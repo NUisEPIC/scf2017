@@ -1,0 +1,105 @@
+/*$epic-red): #800080;*/
+:root{
+  --epic-red: red;
+
+}
+
+a,.tp-caption a.btn:hover {
+  color: #4e2a84;
+}
+.top-nav-collapse {
+  background: #4e2a84;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+  color: #4e2a84;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  background-color: #4e2a84;
+}
+
+.widget-avatar .avatar:hover {
+  border: 5px solid #4e2a84;
+}
+
+.bg-skin {
+  background: #4e2a84;
+}
+
+footer {
+  background-color: #4e2a84;
+}
+
+.btn-skin {
+  color: #000;
+  background-color: #4e2a84;
+  border-color: #4e2a84;
+}
+
+.color-maroon{
+  color: #4e2a84;
+}
+
+.padding-box {
+  padding: 25px;
+}
+
+.vertical-center{
+  /*//  position: relative;
+  //  top: 50%;
+  //  transform: translateY(-50%);*/
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table-vertical-center{
+  display: table;
+  width: 100%;
+}
+
+/* --- Custom Column Widths --- */
+.col-1-5{ /*//used for 6 logos - 3 on each side*/
+  position: relative;
+  /*z-index: 10000000;*/
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 11.5%;
+  display: inline-block;
+}
+
+.col-1-5 .col-8-logos{ /*//used for 6 logos - 3 on each side*/
+  position: relative;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+  width: 11.4583333333333333333%;
+}
+
+/*used for offsetting three company logos*/
+@media (min-width: 992px) {
+  .col-md-offset-1-5{
+    margin-left: 12.5%;
+  }
+}
+
+.col-md-offset-2{
+  margin-left: 16.66666666667%;
+}
+
+
+/* --- Custom Company Logo Class --- */
+.companylogo{
+  @extend .padding-box;
+}
+
+/* --- during load have background red -- */
+body {
+  background: #4e2a84;
+}
+
+section {
+  background: #fff;
+}
