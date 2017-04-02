@@ -2,7 +2,7 @@
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.css";
 
 /* ==== Google font ==== */
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
 @import "style.css";
 :root{
   --epic-red: #000000;
@@ -84,7 +84,7 @@ a:focus {
 }
 
 .navbar-brand h1{
-  color:  #fff; 
+  color:  #fff;
   font-size: 20px;
   line-height: 40px;
 }
@@ -105,7 +105,7 @@ a:focus {
 .navbar-custom ul.nav li a {
   font-size: 12px;
   letter-spacing: 1px;
-  color: #fff; 
+  color: #fff;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -314,7 +314,7 @@ hr {
 .intro {
   width:100%;
   position:relative;
-  background: url(../images/bg_scf2.png) no-repeat fixed center;
+  background: url(../images/SCF_image.jpg) no-repeat fixed center;
   background-size: cover;
 }
 
@@ -487,12 +487,12 @@ hr {
   margin-top: 5%;
 }
 .img-vertical-align{
-  max-height: 50px;
+  max-height: 1000px;
   position: relative;
   top: 50%;
   float: none;
   /*padding-left: 5px;*/
-  transform: translateY(-50%);
+  /*transform: translateY(-50%);*/
   margin: auto;
 }
 
@@ -886,5 +886,3 @@ Parallax
     font-size: 20px;
   }
 }
-
-
